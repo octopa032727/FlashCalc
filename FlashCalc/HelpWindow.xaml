@@ -1,0 +1,13 @@
+﻿<Window x:Class="FlashCalc.HelpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlashCalc"
+        mc:Ignorable="d"
+        Title="プレイ方法" Height="300" Width="350" ResizeMode="NoResize">
+    <Grid>
+        <TextBox x:Name="tb_help" HorizontalAlignment="Left" Height="250" Margin="0,10,0,0" TextWrapping="Wrap" Text="#アプリ概要#&#xd;&#xa;設定した間隔で数字が表示されます。&#xd;&#xa;予想画面にて、表示された数値の和を求めて解答してください。&#xd;&#xa;&#xd;&#xa;①難易度について&#xd;&#xa;・Easy:比較的簡単。&#xd;&#xa;   速度=1秒 問題数=5～10問 最小:1 最大:50&#xd;&#xa;・Normal:普通。&#xd;&#xa;   速度=0.5秒 問題数=15～20問 最小:50 最大:100&#xd;&#xa;・Hard:比較的難しい。&#xd;&#xa;   速度=0.25秒 問題数=25～30問 最小:50 最大:150&#xd;&#xa;・Custom:自由にカスタム出来る。&#xd;&#xa;   速度=カスタム 問題数=カスタム&#xd;&#xa;②カスタムについて&#xd;&#xa;テキストボックスに入力することで、自由に速度、問題数、最小値、最大値を設定することができます。&#xd;&#xa;③その他&#xd;&#xa;・それぞれの難易度のボタンを押すか、カスタム画面でスタートボタンを押すとスタートします。&#xd;&#xa;・Ready/Go! が表示されてからスタートします。" VerticalAlignment="Top" Width="342" FontSize="18" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True"/>
+
+    </Grid>
+</Window>

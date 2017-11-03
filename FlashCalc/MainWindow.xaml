@@ -1,0 +1,18 @@
+﻿<Window x:Class="FlashCalc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlashCalc"
+        mc:Ignorable="d"
+        Title="スタート画面" Height="350" Width="525" Background="Black" ResizeMode="NoResize">
+    <Grid>
+        <Label x:Name="lb_title" Content="フラッシュ暗算" HorizontalAlignment="Left" VerticalAlignment="Top" Width="517" Height="120" HorizontalContentAlignment="Center"  FontSize="65" FontStyle="Oblique" FontWeight="ExtraBlack" Background="Yellow"/>
+        <Button x:Name="btn_easy" Content="Easy&#xd;&#xa;(1秒、5～10問&#xd;&#xa;1～50まで出現)" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" Width="120" Height="80" Click="btn_easy_Click"/>
+        <Button x:Name="btn_normal" Content="Normal&#xd;&#xa;(0.5秒、15～20問&#xd;&#xa;50～100まで出現)" HorizontalAlignment="Left" Margin="135,125,0,0" VerticalAlignment="Top" Width="120" Height="80" Click="btn_normal_Click"/>
+        <Button x:Name="btn_hard" Content="Hard&#xd;&#xa;(0.25秒、25～30問&#xd;&#xa;50～150まで出現)" HorizontalAlignment="Left" Margin="260,125,0,0" VerticalAlignment="Top" Width="120" Height="80" Click="btn_hard_Click"/>
+        <Button x:Name="btn_custom" Content="Custom&#xd;&#xa;(自分で設定)" HorizontalAlignment="Left" Margin="385,125,0,0" VerticalAlignment="Top" Width="120" Height="80" Click="btn_custom_Click"/>
+        <Button x:Name="btn_help" Content="説明" HorizontalAlignment="Left" Margin="0,260,0,0" VerticalAlignment="Top" Width="100" Height="60" Click="btn_help_Click"/>
+
+    </Grid>
+</Window>
